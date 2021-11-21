@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    --moz-font-smoothing: grayscale;
+    --webkit-font-smoothing: antialiased;
+}
+
+body {
+    margin: 0;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:link {
+    color: inherit;
+    text-decoration: none;
+    cursor: hand;
+}
+
+a:visited {
+    color: inherit;
+    text-decoration: none;
+    cursor: hand;
+}
+
+a:hover {
+    color: inherit;
+    text-decoration: none;
+    cursor: hand;
+}
+
+a:active {
+    color: inherit;
+    text-decoration: none;
+    cursor: hand;
+}
+
+.application-container {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: var(--container-background-color);
+    max-width: 3840px;
+    min-width: 800px;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.application-container .header {
+    flex-flow: row nowrap;
+    min-height: 15vh;
+    max-height: 15vh;
+    width: 100vw;
+    background-color: var(--header-background-color);
+    color: var(--header-font-color);
+}
+
+.application-container div {
+    display: flex;
+    flex-grow: 1;
+}
+
+.application-container .header .brand {
+    flex-grow: 2;
+}
+
+.application-container .header .brand .brand-logo {
+    flex-grow: 1;
+}
+
+.application-container .header .brand .brand-logo .logo {
+    max-width: 100%;
+    width: 100%;
+}
+
+.application-container .header .brand .brand-name {
+    flex-grow: 12;
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: serif;
+    text-transform: capitalize;
+    /*font-family: 'Quicksand', sans-serif;*/
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.application-container .header .header-navbar {
+    flex-grow: 1;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.application-container .header .header-navbar .header-navbar-item {
+    font-size: 1.2em;
+    font-family: var(--default-header-navbar-font);
+    text-transform: uppercase;
+    margin-right: 30px;
+}
+
+.application-container .header .header-navbar .header-navbar-item:hover {
+    color: var(--default-hover-color);
+    background-color: var(--default-hover-background-color);
+}
+
+.application-container .contents {
+    flex-flow: row nowrap;
+    min-height: 78vh;
+    width: 100vw;
+    background-color: var(--contents-background-color);
+    color: var(--contents-font-color);
+    justify-content: center;
+}
+
+.application-container .contents .display-area {
+    flex-flow: row wrap;
+    min-width: 100%;
+    background-color: var(--display-area-background-color);
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.application-container .contents .display-area .customer-box {
+    flex-flow: column nowrap;
+    background-color: var(--customer-box-background);
+    max-height: 50vh;
+    min-width: 30vw;
+    max-width: 30vw;
+    margin: 1%;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.application-container .contents .display-area .name-panel {
+    max-height: 10vh;
+    background-color: var(--name-panel-background-color);
+    color: var(--name-panel-font-color);
+    border-radius: 5px 5px 0% 0%;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.application-container .contents .display-area .details-panel {}
+
+.application-container .contents .display-area .details-panel .photo-box {
+    max-width: 150px;
+    padding: 5px;
+}
+
+.application-container .contents .display-area .details-panel .photo-box img {
+    width: 100%;
+}
+
+.application-container .contents .display-area .details-panel .detail-box {
+    flex-flow: column nowrap;
+    padding: 5px;
+}
+
+.application-container .contents .display-area .details-panel .detail {
+    flex-flow: column nowrap;
+}
+
+.application-container .contents .display-area .details-panel .detail .detail-label {
+    border: 1px solid white;
+    padding: 5px;
+}
+
+.application-container .contents .display-area .details-panel .detail .detail-value {
+    border: 1px solid white;
+    justify-content: flex-end;
+    padding: 5px;
+}
+
+.application-container .contents .display-area .view-buttons-panel {
+    justify-content: center;
+    max-height: 10vh;
+    background-color: var(--view-buttons-panel-background-color);
+    color: var(--view-buttons-panel-font-color);
+    border-radius: 0% 0% 5px 5px;
+}
+
+.application-container .contents .display-area .view-buttons-panel button {
+    background-color: #bfc6cc;
+    color: #3d3d3d;
+    width: 100%;
+    font-weight: bold;
+}
+
+.application-container .contents .display-area .view-buttons-panel button:hover {
+    background-color: #3d3d3d;
+    color: #bfc6cc;
+    cursor: default;
+}
+
+.application-container .footer {
+    flex-flow: row nowrap;
+    min-height: 7vh;
+    max-height: 7vh;
+    width: 100vw;
+    background-color: var(--footer-background-color);
+    color: var(--footer-font-color);
+}
+
+.application-container .footer .copyright-box {}
+
+.application-container .footer .copyright-box .copyright-line {
+    font-size: 10px;
+    font-family: monospace;
+    align-items: center;
+    justify-content: center;
+}
+
+.application-container .footer .footer-navbar {
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.application-container .footer .footer-navbar .footer-navbar-item {
+    font-size: 1.0em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0 5px;
+}
+
+.application-container .footer .footer-navbar .footer-navbar-item:hover {
+    color: var(--default-hover-color);
+    background-color: var(--default-hover-background-color);
+}
