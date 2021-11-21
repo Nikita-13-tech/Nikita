@@ -1,0 +1,88 @@
+.application-container .contents .transfer-area {
+    flex-flow: column nowrap;
+    max-width: 90vw;
+    min-width: 90vw;
+    margin: 20px;
+}
+
+.application-container .contents .transfer-area .transfer-heads {
+    background-color: #31405f;
+    color: #ffffff;
+}
+
+.application-container .contents .transfer-area .transfer-heads .transfer-row {
+    flex-flow: row nowrap;
+}
+
+.application-container .contents .transfer-area .transfers {
+    flex-flow: column-reverse nowrap;
+    background-color: #bfc6cc;
+}
+
+.application-container .contents .transfer-area .transfers .transfer-row {
+    flex-flow: row nowrap;
+}
+
+.application-container .contents .transfer-area .transfer-heads .transfer-row .tcol {
+    align-items: center;
+    justify-content: center;
+    max-width: 20%;
+    min-width: 20%;
+}
+
+.application-container .contents .transfer-area .transfers .transfer-row .tcol {
+    align-items: center;
+}
+
+#transaction-id {
+    max-width: 12%;
+    min-width: 12%;
+    justify-content: flex-end;
+    color: black;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#transaction-date {
+    max-width: 17%;
+    min-width: 17%;
+    justify-content: center;
+    color: black;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#money-sender {
+    max-width: 30%;
+    min-width: 30%;
+    justify-content: flex-start;
+    color: black;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#money-receiver {
+    max-width: 30%;
+    min-width: 30%;
+    justify-content: flex-start;
+    color: black;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#transaction-amount {
+    max-width: 11%;
+    min-width: 11%;
+    justify-content: flex-end;
+    color: black;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#colhead {
+    font-size: 2.0em 3vw;
+    font-weight: bolder;
+    border: 1px solid black;
+    padding: 5px;
+    color: #bfc6cc;
+}

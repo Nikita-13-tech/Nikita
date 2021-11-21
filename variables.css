@@ -1,0 +1,56 @@
+/*:root {
+    --container-background-color: springgreen;
+    --header-background-color: #2b6777;
+    --header-font-color: #ffffff;
+    --contents-background-color: #cddbe4;
+    --contents-font-color: #ffffff;
+    --footer-background-color: #2b6777;
+    --footer-font-color: #ffffff;
+    --default-body-font: monospace;
+    --name-panel-background-color: #000000;
+    --name-panel-font-color: #ffffff;
+    --view-buttons-panel-background-color: #000000;
+    --view-buttons-panel-font-color: #ffffff;
+    --display-area-background-color: purple;
+}
+*/
+
+
+/*
+
+:root {
+    --container-background-color: springgreen;
+    --header-background-color: #52ab98;
+    --header-font-color: #ffffff;
+    --contents-background-color: #f2f2f2;
+    --contents-font-color: #ffffff;
+    --footer-background-color: #52ab98;
+    --footer-font-color: #ffffff;
+    --default-body-font: monospace;
+    --name-panel-background-color: #000000;
+    --name-panel-font-color: #ffffff;
+    --view-buttons-panel-background-color: #000000;
+    --view-buttons-panel-font-color: #ffffff;
+    --display-area-background-color: purple;
+}
+*/
+
+:root {
+    --container-background-color: springgreen;
+    --header-background-color: #31405f;
+    --header-font-color: #bfc6cc;
+    --contents-background-color: #fdfdfd;
+    --contents-font-color: #ffffff;
+    --footer-background-color: #31405f;
+    --footer-font-color: #bfc6cc;
+    --default-body-font: monospace;
+    --customer-box-background: #31405f;
+    --name-panel-background-color: #bfc6cc;
+    --name-panel-font-color: #3d3d3d;
+    --view-buttons-panel-background-color: #000000;
+    --view-buttons-panel-font-color: #ffffff;
+    --display-area-background-color: #f2f2f2f;
+    --default-hover-color: #31405f;
+    --default-hover-background-color: #bfc6cc;
+    --default-header-navbar-font: monospace;
+}

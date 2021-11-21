@@ -1,0 +1,10 @@
+.home-area {
+    display: flex;
+    background-image: url('./assets/Bank_of_Spain.png');
+    background-size: 100% 100%;
+}
+
+.home-area .w3-panel {
+    justify-content: center;
+    text-transform: uppercase;
+}

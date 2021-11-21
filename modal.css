@@ -1,0 +1,99 @@
+.w3-modal-content {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.w3-modal-content header {
+    background-color: #31405f;
+}
+
+.w3-modal-content .modal-content {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #bfc6cc;
+}
+
+.modal-content div {
+    display: flex;
+    flex-grow: 1;
+    padding: 5px;
+}
+
+.w3-container.modal-content .detail-row {
+    flex-flow: row nowrap;
+}
+
+.w3-container.modal-content .detail-row .left-box {
+    flex-flow: row wrap;
+}
+
+#space-evenly {
+    justify-content: space-evenly;
+}
+
+.w3-container.modal-content .detail-row .right-box {
+    flex-flow: row wrap;
+}
+
+#photo-box {
+    max-width: 225px;
+    max-height: 225px;
+}
+
+.w3-container.modal-content .detail-row .right-box img {}
+
+.cust-detail-box {
+    flex-flow: column nowrap;
+}
+
+.cust-detail-box .detail-label {
+    align-items: flex-end;
+    justify-content: flex-end;
+    color: #2b6777;
+    font-weight: bold;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.cust-detail-box .detail-value {
+    align-items: stretch;
+    justify-content: flex-end;
+    color: #2b6777;
+}
+
+.modal-container {
+    flex-flow: column nowrap;
+}
+
+.transfer-row {
+    flex-flow: row nowrap;
+}
+
+.transfer-row .sender {
+    color: #31405f;
+    font-weight: bold;
+    max-width: 40%;
+}
+
+.transfer-row .amount {
+    max-width: 20%;
+}
+
+.transfer-row .amount input {}
+
+.transfer-row .receiver-box {
+    justify-content: flex-end;
+    max-width: 40%;
+}
+
+.transfer-row .receiver select {}
+
+.w3-modal-content footer {
+    background-color: #31405f;
+}
+
+.w3-modal-content footer #transfer-button {
+    background-color: #31405f;
+    color: white;
+    width: 100%;
+}
